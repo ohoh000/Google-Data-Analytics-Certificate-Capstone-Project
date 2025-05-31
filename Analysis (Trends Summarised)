@@ -1,5 +1,25 @@
-#Analysis (Trends Summarised)
+# Analysis (Trends Summarised)
 
 Key findings about user trends and behaviour
 
 ## 1. Seasonal ##
+- Distribution of Members vs Casual riders was the same across the seasonal months
+- Increased riders from May to October, warmer months
+- Decreased riders from November to April, colder months
+
+** 2. By Day ** 
+- Members are using bikes mostly during the weekdays, suggesting the commute to work
+- Casuals are using bikes during the weeekends, suggesting leisure purposes
+- Background of case study stated that Cyclistic users are more likely to ride for leisure, but about 30% use the bikes to commute to work each day.
+
+** 3. By Hour **
+- Member bike use peaks during mornings (6-8am) and afternoons (4-6pm)
+- Casual bike use peaks from midday to afternoons
+
+** 4. Ride Type **
+- Classic and Electric bikes are the most uused ride type for both Casuals and Members
+- Members use Electric bikes more than Classic
+- Electric scooters were the least used mode for both Members and Casuals
+
+** 5. Ride Time **
+- Majority of Members and Casuals took short trips of <10min, 10-30min
