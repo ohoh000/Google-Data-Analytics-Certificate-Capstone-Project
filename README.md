@@ -56,7 +56,7 @@ To merge, explore and clean the data I opted for Microsoft Excel and Power Query
 1. Activated filters for each column and reviewed blank spaces, duplicates and inconsistencies of the dataset
 2. Uploaded all 12 .csv datasets to PowerQuery
 3. Removed columns
-   - ride_id, start_lat, start_lng, start_lat, end_lng as it was irrelevant to identifying behavioural trends
+   - ride_id, start_lat, start_lng, start_lat, end_lng as it did not add value to identifying behavioural trends
    - start_station_name, start_station_id, end_station_name, end_station_id as the objective is not to market to stations but rather people
 4. New columns "Month" "Day Name" "Hour" added from the "started_at" column
 5. Custom column "Ride Time" in minute format added using the formula '=([ended_at]-[started_at])*24*60'
@@ -64,5 +64,40 @@ To merge, explore and clean the data I opted for Microsoft Excel and Power Query
    ![image](https://github.com/user-attachments/assets/42d99d8c-3ee4-4084-aea3-c31aaef31612)
 7. "Ride Time", "started_at", "ended_at" column removed.
 8. Load data into Excel for data visualisation
+![image](https://github.com/user-attachments/assets/3698c39a-5d12-4032-a48b-c18bc4d37954)
 
 ### ANALYSE
+Pivot tables were created on Excel as visualisations.
+
+* Total Rides by Month (Seasonal trend)
+![image](https://github.com/user-attachments/assets/e26d7feb-f4de-498b-8a82-331447bfc5d5)
+
+    - Distribution of Members vs Casual riders was the same across the seasonal months
+    - Increased riders from May to October, warmer months
+    - Decreased riders from November to April, colder months
+
+* Total Rides by Day
+ ![image](https://github.com/user-attachments/assets/ca2a330a-e1c3-43e8-a837-f3bf9935996c)
+    - Members are using bikes mostly during the weekdays, suggesting the commute to work
+    - Casuals are using bikes during the weeekends, suggesting leisure purposes
+    - Background of case study stated that Cyclistic users are more likely to ride for leisure, but about 30% use the bikes to commute to work each day.
+
+* Total Rides by Hour
+![image](https://github.com/user-attachments/assets/27b72047-820d-4cee-9c36-ce44aa8082f9)
+    - Member bike use peaks during mornings (6-8am) and afternoons (4-6pm)
+    - Casual bike use peaks from midday to afternoons
+
+* Total Rides by Bike Type
+![image](https://github.com/user-attachments/assets/60a2b2e0-489d-40e1-b9af-c37508324850)
+    - Classic and Electric bikes are the most uused ride type for both Casuals and Members
+    - Members use Electric bikes more than Classic
+    - Electric scooters were the least used mode for both Members and Casuals
+
+* Ride Time
+![image](https://github.com/user-attachments/assets/3873c8bd-ea95-4df7-853f-a6b205db083a)
+    - Majority of Members and Casuals took short trips of <10min, 10-30min
+
+
+### SHARE
+
+### ACT
