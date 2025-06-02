@@ -65,6 +65,8 @@ To merge, explore and clean the data I opted for Microsoft Excel and Power Query
 7. "Ride Time", "started_at", "ended_at" column removed.
 8. Load data into Excel for data visualisation
 ![image](https://github.com/user-attachments/assets/3698c39a-5d12-4032-a48b-c18bc4d37954)
+9. Pivot tables created for analysis
+
 
 ### ANALYSE
 Pivot tables were created on Excel as visualisations.
@@ -89,7 +91,7 @@ Pivot tables were created on Excel as visualisations.
 
 * Total Rides by Bike Type
 ![image](https://github.com/user-attachments/assets/60a2b2e0-489d-40e1-b9af-c37508324850)
-    - Classic and Electric bikes are the most uused ride type for both Casuals and Members
+    - Classic and Electric bikes are the most used ride type for both Casuals and Members
     - Members use Electric bikes more than Classic
     - Electric scooters were the least used mode for both Members and Casuals
 
@@ -99,5 +101,18 @@ Pivot tables were created on Excel as visualisations.
 
 
 ### SHARE
+Power BI was used to create a dashboard with various graphs and charts to present to stakeholders the analysis.
 
+![image](https://github.com/user-attachments/assets/b8a55f2f-4752-40f3-b33a-9b22bb52972f)
+
+- 
 ### ACT
+After identifying the differences between Member and Casual riders, these are some suggestions to the Divvy team to convert Casual riders to Member riders.
+* Offer discounted membership when you signs up in colder months (November to April) for annual passes.
+* Start marketing campaigns in Spring/Summer when the season begins to get warmer.
+* Promotional offer to existing Casual riders that if they sign up to an annual pass, they get additional benefits e.g. free merchandise, discounted tickets for events by partnering with tourism agencies.
+* Referral Code program; promote to Member riders that both users can get a free trial if they use their refferal code which will lure Casual riders.
+
+There are limitations to convert Casuals to Members, as the analysis suggest Casuals may be tourists outside from Chicago. Marketing strategies to attract such audience and increase sales can be:
+* Offer other forms of memberships e.g. seasonal passes, weekend packages for tourists to attract more sales from Causal riders.
+* Partner with hotels or tourism agencies to promote the suggested forms of memberships above.
