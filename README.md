@@ -105,7 +105,7 @@ Power BI was used to create a dashboard with various graphs and charts to presen
 
 ![image](https://github.com/user-attachments/assets/b8a55f2f-4752-40f3-b33a-9b22bb52972f)
 
-- 
+
 ### ACT
 After identifying the differences between Member and Casual riders, these are some suggestions to the Divvy team to convert Casual riders to Member riders.
 * Offer discounted membership when you signs up in colder months (November to April) for annual passes.
